@@ -1,10 +1,14 @@
 import './App.css'
-import menu from './components/menu'
+import Menu from './components/menu'
+import Logo from './components/logo'
+import Scene from './components/scene'
 
 function App() {
 	return (
-		<div className='App'>
-			<header className='bg-white'>Привет</header>
+		<div className='flex flex-col max-w-md mx-auto mb-5 pb-5 neo rounded-xl'>
+			<Logo />
+			<Scene />
+			<Menu />
 		</div>
 	)
 }
